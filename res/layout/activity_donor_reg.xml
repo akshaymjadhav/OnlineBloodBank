@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/donor2"
+    android:orientation="vertical"
+    tools:context="com.aj.onlinebloodbank.DonorReg">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/donor1" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@android:drawable/ic_menu_mylocation"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Get My Location"></Button>
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@android:drawable/ic_menu_add"
+        android:fontFamily="sans-serif"
+        android:hint="Enter name"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/black"
+        android:textColorLink="@android:color/black" />
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@android:drawable/ic_input_add"
+        android:hint="Enter Address"
+        android:inputType="textPostalAddress"
+        android:textColorHint="@android:color/black" />
+
+
+
+    <EditText
+        android:id="@+id/ed3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="Enter phoneno"
+        android:drawableLeft="@android:drawable/ic_dialog_dialer"
+        android:inputType="number"
+        android:textColorHint="@android:color/black" />
+
+    <EditText
+        android:id="@+id/ed4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@android:drawable/ic_input_add"
+        android:hint="Enter Blood Group"
+        android:inputType="text"
+        android:textColorHint="@android:color/black" />
+
+    <EditText
+        android:id="@+id/ed5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:layout_marginTop="5dp"
+        android:hint="Enter age"
+        android:inputType="number"
+        android:textColorHint="@android:color/black" />
+
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@android:drawable/ic_menu_save"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Submit"></Button>
+
+</LinearLayout>

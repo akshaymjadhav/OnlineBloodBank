@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:scrollbars="vertical"
+                android:text="Tips for a Successful Donation"
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="cursive"
+                android:textSize="30dp"
+
+                android:textStyle="bold"
+                android:layout_weight="0.02" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:scrollbars="vertical"
+                android:text=" Before Your Donation"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="monospace"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:scrollbars="vertical"
+                android:text=" 1) Maintain a healthy iron level in your diet by eating iron rich foods, such as red meat, fish, poultry, beans, spinach, iron-fortified cereals and raisins.\n\n 2) Get a good night's sleep.\n\n 3) Drink an extra 16 oz. of water or nonalcoholic fluids before the donation.\n\n 4) Eat a healthy meal before your donation. Avoid fatty foods, such as hamburgers, fries or ice cream before donating. (Fatty foods can affect the tests we do on your blood. If there is too much fat in your blood, your donation cannot be tested for infectious diseases and the blood will not be used for transfusion.)\n If you are a platelet donor, remember that your system must be free of aspirin for two days prior to donation."
+                android:textSize="20dp"
+
+                />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:scrollbars="vertical"
+                android:text=" During Your Donation"
+                android:fontFamily="monospace"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:scrollbars="vertical"
+                android:text=" 1) Wear clothing with sleeves that can be raised above the elbow.\n\n 2) Let the person taking your blood know if you have a preferred arm and show them any good veins that have been used successfully in the past to draw blood.\n\n 3) Relax, listen to music, talk to other donors or read during the donation process.\n\n 4) Take the time to enjoy a snack and a drink in the refreshments area immediately after donating."
+                android:textSize="20dp"
+
+                />
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:scrollbars="vertical"
+                android:text=" After Your Donation"
+                android:fontFamily="monospace"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:scrollbars="vertical"
+                android:text=" 1) Drink an extra four (8 ounce) glasses of liquids and avoid alcohol over the next 24 hours.\n\n 2) Keep the strip bandage on for the next several hours.\n\n 3) To avoid a skin rash, clean the area around the strip bandage with soap and water.\n\n 4) Do not do any heavy lifting or vigorous exercise for the rest of the day.\n\n 5) If the needle site starts to bleed, apply pressure to it and raise your arm straight up for about 5-10 minutes or until bleeding stops.\n\n 6) If you experience dizziness or lightheadedness after donation, stop what you are doing and sit down or lie down until you feel better. Avoid performing any activity where fainting may lead to injury for at least 24 hours.
+"
+                android:textSize="20dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:scrollbars="vertical"
+                android:text=" compatible blood types for receiving blood transfusions"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:textStyle="italic|bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/chart2" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

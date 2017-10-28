@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/start"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.aj.onlinebloodbank.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <TextView
+        android:id="@+id/txtTicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:freezesText="true"
+        android:gravity="center_horizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:scrollHorizontally="true"
+        android:shadowColor="#FF0000"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
+        android:singleLine="true"
+        android:text="Donate Blood...Save Life"
+        android:textColor="@android:color/black"
+        android:textSize="40dp"
+        android:textStyle="bold|italic" />
+
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/roundedbutton"
+        android:elevation="0dp"
+        android:fontFamily="cursive"
+        android:text="Donor"
+        android:textSize="40dp"
+        android:textStyle="bold|italic"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/roundedbutton"
+        android:fontFamily="cursive"
+        android:text="Receiver"
+        android:textSize="40dp"
+        android:onClick="onClick"
+        android:textStyle="bold|italic" />
+
+
+
+</LinearLayout>
